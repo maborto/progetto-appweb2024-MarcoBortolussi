@@ -33,15 +33,15 @@ Istruzioni per l'Installazione e l'Esecuzione
 Descrizione delle Route Principali
 Pagine HTML (servite come file statici):
 
-    GET /: Homepage del ricettario (servirà public/main/index.html).
+    GET /: Homepage del ricettario (servirà frontend/main/index.html).
 
-    GET /categoria/:category: Pagina per visualizzare le ricette per categoria (servirà public/categoria/index.html).
+    GET /categoria/:category: Pagina per visualizzare le ricette per categoria (servirà frontend/categoria/index.html).
 
-    GET /preferiti: Pagina per visualizzare le ricette preferite dall'utente autenticato (servirà public/preferiti/index.html).
+    GET /preferiti: Pagina per visualizzare le ricette preferite dall'utente autenticato (servirà frontend/preferiti/index.html).
 
-    GET /piatti/:id: Pagina di dettaglio per una singola ricetta (servirà public/piatti/index.html).
+    GET /piatti/:id: Pagina di dettaglio per una singola ricetta (servirà frontend/piatti/index.html).
 
-    GET /search-results: Pagina per visualizzare i risultati di ricerca (servirà public/search-results/index.html).
+    GET /search-results: Pagina per visualizzare i risultati di ricerca (servirà frontend/search-results/index.html).
 
 API REST:
 

@@ -25,13 +25,15 @@ function authenticateToken(req, res, next) {
     next();
 }
 
-// Serve i file statici (CSS, JS, immagini ecc.) dalla cartella 'public'
-app.use(express.static(path.join(__dirname, '..', 'public')));
+// Serve i file statici (CSS, JS, immagini ecc.) dalla cartella 'frontend'
+app.use(express.static(path.join(__dirname, '..', 'frontend')));
+app.use('/docs', express.static('docs'));
+
 
 // --- Gestione Utenti e Autenticazione ---
 let users = [];
-const usersFilePath = path.join(__dirname, 'data', 'users.json');
-const favoritesFilePath = path.join(__dirname, 'data', 'favorites.json');
+const usersFilePath = path.join(__dirname,'..', 'data', 'users.json');
+const favoritesFilePath = path.join(__dirname,'..',  'data', 'favorites.json');
 
 // Carica gli utenti all'avvio del server
 fs.readFile(usersFilePath, 'utf8', (err, data) => {
@@ -48,9 +50,7 @@ function saveUsers() {
     fs.writeFile(usersFilePath, JSON.stringify(users, null, 2), 'utf8', (err) => {
         if (err) {
             console.error("Errore nella scrittura di users.json:", err);
-        } else {
-            console.log("Utenti salvati su users.json.");
-        }
+        } 
     });
 }
 
@@ -59,8 +59,6 @@ function saveFavorites(favoritesData) {
     fs.writeFile(favoritesFilePath, JSON.stringify(favoritesData, null, 2), 'utf8', (err) => {
         if (err) {
             console.error("Errore nella scrittura di favorites.json:", err);
-        } else {
-            console.log("Preferiti salvati su favorites.json.");
         }
     });
 }
@@ -107,37 +105,37 @@ app.post('/register', (req, res) => {
 
 // Rotte per servire le pagine HTML
 app.get('/', (req, res) => {
-    const filePath = path.join(__dirname, '..', 'public', 'main', 'index.html');
+    const filePath = path.join(__dirname, '..', 'frontend', 'main', 'index.html');
     res.sendFile(filePath);
 });
 
 app.get('/search-results', (req, res) => {
-    const filePath = path.join(__dirname, '..', 'public', 'search-result', 'index.html');
+    const filePath = path.join(__dirname, '..', 'frontend', 'search-result', 'index.html');
     res.sendFile(filePath);
 });
 
 // Rotta per la pagina dei preferiti
 app.get('/preferiti', (req, res) => {
-    const filePath = path.join(__dirname, '..', 'public', 'preferiti', 'index.html');
+    const filePath = path.join(__dirname, '..', 'frontend', 'preferiti', 'index.html');
     res.sendFile(filePath);
 });
 
 // Rotta per la pagina del singolo piatto
 app.get('/piatti/:id', (req, res) => { 
-    const filePath = path.join(__dirname, '..', 'public', 'piatti', 'index.html');
+    const filePath = path.join(__dirname, '..', 'frontend', 'piatti', 'index.html');
     res.sendFile(filePath);
 });
 
 // Rotta per la pagina delle categorie 
 app.get('/categoria/:category', (req, res) => {
-    const filePath = path.join(__dirname, '..', 'public', 'categoria', 'index.html');
+    const filePath = path.join(__dirname, '..', 'frontend', 'categoria', 'index.html');
     res.sendFile(filePath);
 });
 
 
 // Endpoint per ottenere le ricette (con filtro categoria, ricerca e paginazione)
 app.get('/api/ricette', (req, res) => {
-    const recipesFilePath = path.join(__dirname, 'data', 'ricette.json');
+    const recipesFilePath = path.join(__dirname,'..', 'data', 'ricette.json');
 
     if (!fs.existsSync(recipesFilePath)) {
         return res.json({ results: [], total: 0 });
@@ -187,7 +185,7 @@ app.get('/api/ricette', (req, res) => {
 
 // Endpoint per cercare una ricetta per ID
 app.get('/api/ricette/:id', (req, res) => {
-    const recipesFilePath = path.join(__dirname, 'data', 'ricette.json');
+    const recipesFilePath = path.join(__dirname,'..',  'data', 'ricette.json');
     const requestedId = parseInt(req.params.id);
 
     if (isNaN(requestedId)) {

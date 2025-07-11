@@ -1,0 +1,530 @@
+/* HEADER layout con flex tra menu a sinistra, scritte al centro, logo a destra */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  background-color: #fbf2e8;
+  color: black;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+/* Separatore nel menu a tendina */
+.menu-separator {
+    border-top: 1px solid #ccc; /* Una linea sottile */
+    margin: 0px; /* Spazio sopra e sotto il separatore */
+    width: 80%; /* Larghezza della linea */
+    margin-left: auto; /* Centra la linea */
+    margin-right: auto; /* Centra la linea */
+}
+
+
+
+/* Contenitore centrale per titoli */
+.titoli {
+  text-align: center;
+  flex-grow: 1;
+  transition: margin-right 0.3s ease; /* Transizione per un effetto più fluido */
+}
+
+header h1 {
+  font-size: 40px;
+  margin: 0;
+  margin-right: 100px; 
+}
+
+header h2 {
+  font-size: 20px;
+  margin: 0;
+  font-style: italic;
+  font-weight: normal;
+  margin-right: 100px; 
+}
+
+/* NUOVA REGOLA: Applica il margine destro quando l'header ha la classe 'logged-in' */
+header.logged-in h1,
+header.logged-in h2 {
+  margin-right: 260px; /* Nuovo margine per compensare lo spazio del bottone "Modifica Profilo" */
+}
+
+
+/* Logo in alto a destra */
+.logo {
+  height: 100px;
+}
+
+/* Posiziona il menu a sinistra */
+.dropdown {
+  position: relative;
+}
+
+/* Bottone hamburger */
+.dropbtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px; /* spazio tra le linee */
+  width: 30px;
+}
+
+/* Lineette del bottone */
+.hamburger-line {
+  width: 30px;
+  height: 3px;
+  background-color: black;
+  border-radius: 2px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  height: 40vh;
+  width: 150px; 
+  background-color: #fbf2e8;
+  box-shadow: 5px 0 10px rgba(0,0,0,0.1);
+  border-radius: 0; 
+  z-index: 1000;
+  padding-top: 10px; /* Spazio per non coprire l’hamburger */
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 14px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f0f0f0;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.menu-title {
+  font-weight: bold;
+  font-size: 16px;
+  padding: 12px 14px 8px;
+  border-bottom: 1px solid #ccc;
+  color: black;
+}
+
+
+/* Sfondo per tutta la pagina */
+body {
+  background-color: #e6ddd4;
+  margin: 0;
+  min-height: 100vh; /* tutta l'altezza della finestra, minimo */
+  flex-direction: column;
+  display: flex;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black; /* Per vedere il testo sullo sfondo scuro */
+}
+
+/* Stili per la message box (condivisi tra i modali) */
+.message-box {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.message-box.success {
+  background-color: #d4edda;
+  color: #155724;
+  border-color: #c3e6cb;
+}
+
+.message-box.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border-color: #f5c6cb;
+}
+
+
+/* --- STILI PER IL BOTTONE LOGIN E MODIFICA PROFILO NELL'HEADER --- */
+.header-btn {
+    padding: 8px 15px;
+    background-color: #e1d1c0; 
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    margin-left: 15px; /* Spazio dal logo */
+}
+
+.header-btn:hover {
+    background-color: #e6d7c8; /* Verde più scuro all'hover */
+}
+
+
+/* --- STILI PER IL MODALE DI AUTENTICAZIONE (LOGIN/REGISTRAZIONE) --- */
+#auth-modal.modal {
+    display: none; /* Nascosto di default. Il JS lo imposterà a 'flex' */
+    position: fixed;
+    z-index: 2000; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.6); /* Sfondo più scuro per distinguere */
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#auth-modal .modal-content {
+    background-color: #fbf2e8; /* Sfondo del modale autenticazione */
+    margin: auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    width: 90%;
+    max-width: 400px; /* Più piccolo per un form di login */
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+#auth-modal .modal-content h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #333; /* Colore scuro per i titoli interni */
+    font-size: 1.8rem; /* Dimensione più piccola per i titoli del form */
+}
+
+.close-button {
+    color: #aaa;
+    position: absolute;
+    top: 15px;
+    right: 20px; 
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: black;
+    text-decoration: none;
+}
+
+
+#auth-modal .modal-content input[type="text"],
+#auth-modal .modal-content input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #333;
+}
+
+.modal-content button {
+    width: 100%;
+    padding: 12px;
+    background-color: #e8d7c7; 
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.modal-content button:hover {
+    background-color: #dfc8b2;
+}
+
+#auth-modal .modal-content .auth-message {
+    margin-top: 10px;
+    font-weight: bold;
+    color: red; /* Per messaggi di errore */
+}
+
+#auth-modal .modal-content p {
+    font-size: 0.9rem;
+    margin-top: 15px;
+    color: #555; /* Colore per il testo normale */
+}
+
+#auth-modal .modal-content a {
+    color: #007bff; /* Blu per i link */
+    text-decoration: none;
+}
+
+#auth-modal .modal-content a:hover {
+    text-decoration: underline;
+}
+
+
+/* Stili per il Modale di Modifica Profilo */
+#profile-modal.modal {
+    display: none; /* Nascosto di default */
+    position: fixed;
+    z-index: 2000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.6);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#profile-modal .modal-content {
+    background-color: #fbf2e8; /* Sfondo del modale */
+    margin: auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    width: 90%;
+    max-width: 400px; /* Simile al modale di autenticazione */
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+#profile-modal .modal-content h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 1.8rem;
+}
+
+/* Stili per le sezioni del modale di modifica profilo */
+.profile-section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f0f8ff;
+    text-align: left; /* Allinea il testo all'interno della sezione a sinistra */
+}
+
+.profile-section h3 {
+    font-size: 1.3rem;
+    color: #4e759f;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center; /* Centra il titoletto della sezione */
+}
+
+.profile-section input[type="text"],
+.profile-section input[type="password"] {
+    width: calc(100% - 20px); /* Larghezza completa meno padding */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: block; /* Assicura che gli input vadano a capo */
+}
+
+
+/* Stili per il bottone di chiusura specifico del modale profilo */
+.profile-close-button {
+    color: #aaa;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.profile-close-button:hover,
+.profile-close-button:focus {
+    color: black;
+    text-decoration: none;
+}
+
+#profile-modal .modal-content .auth-message { 
+    margin-top: 10px;
+    font-weight: bold;
+    color: red;
+}
+
+
+
+/* Stili per il messaggio personalizzato */
+.custom-message-box {
+    display: none; 
+    position: fixed; 
+    top: 500px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    z-index: 9999; 
+    color: white; /* Testo bianco di default */
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out; /* Animazione */
+    min-width: 280px; /* Larghezza minima */
+    max-width: 90%; /* Larghezza massima per responsività */
+    flex-direction: column; /* Impila testo e bottone verticalmente */
+    align-items: center; /* Centra gli elementi orizzontalmente */
+    gap: 10px; /* Spazio tra testo e bottone */
+}
+
+/* Stili per i diversi tipi di messaggio */
+.custom-message-box.success {
+    background-color: #28a745; /* Verde per successo */
+}
+
+.custom-message-box.error {
+    background-color: #dc3545; /* Rosso per errore */
+}
+
+.custom-message-box.info {
+    background-color: #007bff; /* Blu per informazioni */
+}
+
+/* Stile per la modale di conferma */
+.custom-message-box.confirm {
+    background-color: #fff; /* Sfondo bianco */
+    color: #333; /* Testo scuro per contrasto */
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25); /* Ombra più pronunciata */
+    border: 1px solid #ddd; /* Bordo leggero */
+}
+
+/* Stato visibile */
+.custom-message-box.show {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0); /* Torna alla posizione normale */
+}
+
+/* Stili per il pulsante OK */
+.custom-message-ok-button {
+    background-color: rgba(255, 255, 255, 0.2); /* Sfondo leggermente trasparente */
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: bold;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.custom-message-ok-button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-color: white;
+}
+
+.modal-content .delete-account-btn:hover {
+    background-color: #c82333; /* Rosso più scuro all'hover */
+    color: white; /* Colore del testo bianco per contrasto */
+}
+
+
+/* Stili per la Modale di Conferma */
+.custom-confirm-modal {
+    display: none; 
+    position: fixed; 
+    z-index: 10000; /* Assicurati che sia sopra tutti gli altri elementi */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.6); /* Sfondo semi-trasparente */
+    transition: opacity 0.3s ease-in-out; /* Animazione di fade */
+    pointer-events: none; /* I click passano attraverso quando è nascosto */
+}
+
+/* Stato visibile: solo quando ha la classe 'show' */
+.custom-confirm-modal.show {
+    opacity: 1;
+    display: flex;
+    pointer-events: auto; /* Permetti i click quando è visibile */
+}
+
+.custom-confirm-content {
+    background-color: #fff; 
+    margin: auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Ombra più pronunciata */
+    width: 90%;
+    max-width: 450px; /* Larghezza massima per non essere troppo grande */
+    text-align: center;
+    color: black; /* Colore del testo scuro per contrasto */
+    display: flex;
+    flex-direction: column;
+    gap: 25px; /* Spazio tra messaggio e bottoni */
+    transform: translateY(-20px); 
+    transition: transform 0.3s ease-in-out; /* Animazione di slide */
+    
+    pointer-events: auto; /* Assicurati che il contenuto della modale sia cliccabile */
+    z-index: 10001;
+}
+
+/* Stato visibile con animazione */
+.custom-confirm-modal.show .custom-confirm-content {
+    transform: translateY(0);
+}
+
+.custom-confirm-message {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0; /* Spazio gestito dal gap del contenitore */
+}
+
+.custom-confirm-buttons {
+    display: flex;
+    justify-content: center; /* Centra i bottoni */
+    gap: 15px; /* Spazio tra i bottoni affiancati */
+    width: 100%;
+}
+
+.confirm-button {
+    background-color: #e8d7c7;
+    color: black;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px; /* Angoli più arrotondati */
+    cursor: pointer;
+    font-size: 1.05rem;
+    font-weight: bold;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+    flex: 1; /* Permette ai bottoni di espandersi equamente */
+    max-width: 150px; /* Limita la larghezza */
+}
+
+
+.confirm-button:hover {
+    background-color: #ddbc9d;
+    color: rgb(0, 0, 0);
+}
+
+.confirm-button.confirm-yes:hover {
+    background-color: #fa0000;
+    color: white;
+}
+
+
+
+
+
