@@ -1,0 +1,586 @@
+[
+  {
+    "id": 1,
+    "categoria": "Antipasto",
+    "nome": "Bruschetta al Pomodoro",
+    "descrizione": "Quale miglior piatto per una calda estate se non la Bruschetta al Pomodoro, un classico intramontabile della cucina italiana, perfetto per iniziare un pasto o come spuntino leggero e saporito. La sua semplicità esalta la freschezza degli ingredienti.",
+    "immagine": "/img/bruschetta.jpg",
+    "ingredienti": [
+      "pane casereccio a fette",
+      "pomodori maturi",
+      "aglio fresco",
+      "olio extravergine d'oliva di qualità",
+      "foglie di basilico fresco",
+      "sale fino"
+    ],
+    "istruzioni": "Per prima cosa, procurati del buon pane casereccio e taglialo a fette non troppo sottili. Tosta le fette di pane in una padella antiaderente, su una griglia, o in forno fino a che non saranno leggermente dorate e croccanti. Prendi uno spicchio d'aglio e strofinalo energicamente su tutta la superficie di ogni fetta di pane ancora calda, in modo da insaporirla bene. In una ciotola, taglia i pomodori maturi a cubetti piccoli e regolari. Condisci i pomodori con abbondante olio extravergine d'oliva, un pizzico di sale e le foglie di basilico fresco spezzettate a mano. Mescola bene il tutto. Infine, distribuisci generosamente il composto di pomodori sulle fette di pane tostato e servi immediatamente. Puoi aggiungere un ulteriore filo d'olio a crudo prima di servire per un tocco in più.",
+    "calorie": 150,
+    "tempo": 10
+  },
+  {
+    "id": 2,
+    "categoria": "Antipasto",
+    "nome": "Insalata Caprese",
+    "descrizione": "Un inno alla semplicità e ai colori dell'Italia, l'Insalata Caprese è l'antipasto estivo per eccellenza. Fresca, leggera e incredibilmente gustosa, è perfetta per le giornate più calde.",
+    "immagine": "/img/caprese.jpg",
+    "ingredienti": [
+      "mozzarella di bufala o fior di latte",
+      "pomodori ramati o cuore di bue",
+      "foglie di basilico fresco",
+      "olio extravergine d'oliva",
+      "sale",
+      "origano secco"
+    ],
+    "istruzioni": "Scegli mozzarella e pomodori di ottima qualità, sono la chiave di questo piatto. Taglia la mozzarella e i pomodori a fette spesse circa mezzo centimetro. Disponi le fette di mozzarella e pomodoro alternandole in un piatto da portata, creando un gioco di colori accattivante. Guarnisci con abbondanti foglie di basilico fresco, intere o spezzettate. Condisci il tutto con un generoso filo di olio extravergine d'oliva, un pizzico di sale e una spolverata di origano secco, che ne esalterà il profumo. Servi l'insalata Caprese a temperatura ambiente per apprezzarne al meglio tutti i sapori.",
+    "calorie": 250,
+    "tempo": 15
+  },
+  {
+    "id": 3,
+    "categoria": "Antipasto",
+    "nome": "Crostini al Paté di Olive",
+    "descrizione": "Un aperitivo sfizioso e veloce da preparare, i Crostini al Paté di Olive sono perfetti per un buffet o per accompagnare un buon bicchiere di vino. La cremosità del paté si sposa alla perfezione con la croccantezza del pane tostato.",
+    "immagine": "/img/crostini.jpg",
+    "ingredienti": [
+      "pane tipo baguette o ciabatta",
+      "paté di olive nere di buona qualità",
+      "olio extravergine d'oliva",
+      "rosmarino fresco per guarnire"
+    ],
+    "istruzioni": "Affetta il pane a fette diagonali per ottenere dei crostini di dimensioni adeguate. Tosta le fette di pane in forno, in padella o nel tostapane fino a renderle dorate e croccanti. Una volta pronti, spalma uniformemente una generosa quantità di paté di olive nere su ogni crostino. Aggiungi un filo leggero di olio extravergine d'oliva su ogni crostino per esaltarne il sapore. Decora ogni crostino con un piccolo rametto di rosmarino fresco, che darà un tocco aromatico e un bel contrasto cromatico. Servi subito per gustare la croccantezza dei crostini.",
+    "calorie": 180,
+    "tempo": 12
+  },
+  {
+    "id": 4,
+    "categoria": "Antipasto",
+    "nome": "Frittata di Zucchine",
+    "descrizione": "Un piatto versatile e saporito, la Frittata di Zucchine è ideale come antipasto, secondo leggero o per un picnic all'aperto. Semplice da realizzare, conquisterà tutti con il suo sapore delicato e la consistenza soffice.",
+    "immagine": "/img/frittata.jpg",
+    "ingredienti": [
+      "uova fresche",
+      "zucchine medie",
+      "cipolla piccola",
+      "sale",
+      "olio d'oliva",
+      "parmigiano reggiano grattugiato"
+    ],
+    "istruzioni": "Lava e spunta le zucchine, poi tagliale a rondelle sottili o a julienne. Trita finemente la cipolla. In una padella antiaderente, scalda un filo d'olio d'oliva e fai appassire la cipolla tritata. Aggiungi le zucchine e lasciale rosolare a fuoco medio fino a quando non saranno tenere e leggermente dorate. In una ciotola capiente, sbatti le uova con un pizzico di sale e il parmigiano reggiano grattugiato, fino a ottenere un composto omogeneo. Versa le zucchine rosolate nella ciotola con le uova e mescola delicatamente. Scalda un altro filo d'olio nella stessa padella e versaci il composto di uova e zucchine. Cuoci a fuoco medio-basso per circa 5-7 minuti per lato, o fino a quando la frittata non sarà dorata e ben cotta su entrambi i lati. Puoi aiutarti con un piatto per girarla. Servi la frittata tiepida o fredda, tagliata a spicchi.",
+    "calorie": 220,
+    "tempo": 20
+  },
+  {
+    "id": 5,
+    "categoria": "Antipasto",
+    "nome": "Rotolini di Bresaola e Formaggio",
+    "descrizione": "Un antipasto raffinato e leggero, i Rotolini di Bresaola e Formaggio sono perfetti per un aperitivo o un pranzo veloce. La delicatezza della bresaola si sposa armoniosamente con la cremosità del formaggio e il tocco amarognolo della rucola.",
+    "immagine": "/img/rotolini.jpg",
+    "ingredienti": [
+      "fette di bresaola di alta qualità",
+      "formaggio spalmabile fresco (es. Philadelphia, ricotta)",
+      "rucola fresca",
+      "limone non trattato",
+      "pepe nero macinato fresco"
+    ],
+    "istruzioni": "Prendi le fette di bresaola e stendile su un tagliere. Spalma delicatamente uno strato sottile e uniforme di formaggio spalmabile su ciascuna fetta di bresaola. Disponi alcune foglie di rucola fresca su un lato di ogni fetta. Arrotola con cura le fette di bresaola su se stesse, formando dei rotolini compatti. Se necessario, puoi fissare ogni rotolino con uno stuzzicadenti per mantenerlo fermo. Disponi i rotolini su un piatto da portata. Spremi qualche goccia di succo di limone fresco sui rotolini, che donerà un tocco di acidità e freschezza. Concludi con una macinata di pepe nero fresco. Servi i rotolini freddi, come antipasto leggero e sfizioso.",
+    "calorie": 170,
+    "tempo": 15
+  },
+  {
+    "id": 6,
+    "categoria": "Primo",
+    "nome": "Spaghetti alla Carbonara",
+    "descrizione": "Un pilastro della cucina romana, gli Spaghetti alla Carbonara sono un piatto ricco e avvolgente, un vero trionfo di sapori. La sua cremosità irresistibile e il gusto deciso la rendono un classico intramontabile.",
+    "immagine": "/img/carbonara.jpg",
+    "ingredienti": [
+      "spaghetti di semola di grano duro",
+      "uova freschissime",
+      "guanciale di Amatrice o Norcia",
+      "pecorino romano DOP grattugiato",
+      "pepe nero macinato fresco"
+    ],
+    "istruzioni": "Metti a bollire abbondante acqua salata per gli spaghetti. Nel frattempo, taglia il guanciale a listarelle di circa mezzo centimetro. In una padella antiaderente, rosola il guanciale a fuoco medio senza aggiungere grassi: dovrà diventare croccante e rilasciare il suo prezioso grasso. Quando gli spaghetti saranno quasi cotti, in una ciotola capiente, sbatti i tuorli d'uovo (e un albume se preferisci una crema più leggera) con abbondante pecorino romano grattugiato e una generosa macinata di pepe nero. Aggiungi un cucchiaio dell'acqua di cottura della pasta alla crema per renderla più fluida. Scola gli spaghetti al dente direttamente nella padella con il guanciale, tenendo da parte un po' di acqua di cottura. Togli la padella dal fuoco e versa immediatamente la crema di uova e pecorino sugli spaghetti. Mescola rapidamente e con decisione, aggiungendo un po' di acqua di cottura se necessario, fino a ottenere una crema densa e avvolgente che si leghi perfettamente alla pasta. Servi immediatamente, guarnendo con altro pecorino e pepe nero.",
+    "calorie": 550,
+    "tempo": 25
+  },
+  {
+    "id": 7,
+    "categoria": "Primo",
+    "nome": "Risotto ai Funghi",
+    "descrizione": "Un piatto comfort per eccellenza, il Risotto ai Funghi è un'ode ai sapori del bosco. Cremoso, aromatico e avvolgente, è perfetto per le serate più fresche o per un pranzo speciale.",
+    "immagine": "/img/funghi.jpg",
+    "ingredienti": [
+      "riso Carnaroli o Arborio",
+      "funghi misti ",
+      "cipolla bionda",
+      "brodo vegetale caldo",
+      "burro freddo",
+      "parmigiano reggiano grattugiato",
+      "olio extravergine d'oliva",
+      "prezzemolo fresco tritato"
+    ],
+    "istruzioni": "Se usi funghi secchi, mettili in ammollo in acqua tiepida per almeno 30 minuti. Trita finemente la cipolla. In una casseruola dai bordi alti, scalda un generoso filo di olio extravergine d'oliva e fai soffriggere la cipolla tritata a fuoco dolce fino a quando non sarà trasparente. Aggiungi i funghi (se freschi, puliti e tagliati; se secchi, scolati e strizzati bene) e falli rosolare per qualche minuto. Unisci il riso e tostalo per un paio di minuti, mescolando continuamente, finché i chicchi non saranno traslucidi ai bordi. Inizia ad aggiungere il brodo vegetale caldo, un mestolo alla volta, mescolando costantemente e aspettando che il liquido sia stato quasi completamente assorbito prima di aggiungerne altro. Continua in questo modo per circa 15-18 minuti, o fino a quando il riso non sarà al dente e cremoso. A fine cottura, togli il risotto dal fuoco e manteca energicamente con una noce di burro freddo e il parmigiano reggiano grattugiato, mescolando per incorporare aria e rendere il risotto ancora più cremoso. Lascia riposare per un minuto coperto, poi servi subito, guarnendo con prezzemolo fresco tritato.",
+    "calorie": 480,
+    "tempo": 40
+  },
+  {
+    "id": 8,
+    "categoria": "Primo",
+    "nome": "Lasagne alla Bolognese",
+    "descrizione": "Le Lasagne alla Bolognese, un'icona della cucina emiliana, sono un piatto sontuoso e appagante, perfetto per le occasioni speciali o per un pranzo in famiglia. Ogni strato è un tripudio di sapori e consistenze.",
+    "immagine": "/img/lasagne.jpg",
+    "ingredienti": [
+      "sfoglia di pasta fresca all'uovo (preferibilmente fatta in casa)",
+      "ragù alla bolognese (già preparato)",
+      "besciamella densa (già preparata)",
+      "parmigiano reggiano grattugiato"
+    ],
+    "istruzioni": "Prepara il ragù alla bolognese e la besciamella in anticipo, per un risultato ottimale. Imburra una teglia da forno e stendi un sottile strato di besciamella sul fondo. Inizia a disporre uno strato di sfoglia di pasta fresca. Copri la pasta con un generoso strato di ragù alla bolognese, poi con un altro strato di besciamella e una spolverata abbondante di parmigiano reggiano grattugiato. Ripeti gli strati in quest'ordine (pasta, ragù, besciamella, parmigiano) fino a esaurire gli ingredienti, terminando con uno strato di besciamella e abbondante parmigiano sulla superficie. Cuoci in forno preriscaldato a 180°C per circa 35-40 minuti, o fino a quando le lasagne non saranno dorate e bollenti. Lascia riposare le lasagne per 10-15 minuti fuori dal forno prima di servirle, in modo che si assestino e siano più facili da porzionare.",
+    "calorie": 600,
+    "tempo": 60
+  },
+  {
+    "id": 9,
+    "categoria": "Primo",
+    "nome": "Pasta al Pesto",
+    "descrizione": "Un'esplosione di profumi e sapori dalla Liguria, la Pasta al Pesto è un piatto fresco, veloce e incredibilmente gustoso. Perfetta per un pranzo estivo o quando si ha poco tempo ma non si vuole rinunciare al gusto.",
+    "immagine": "/img/pesto.jpg",
+    "ingredienti": [
+      "pasta (trofie, trenette, o linguine sono ideali)",
+      "basilico fresco (foglie grandi e profumate)",
+      "pinoli",
+      "olio extravergine d'oliva di alta qualità",
+      "parmigiano reggiano grattugiato",
+      "aglio (facoltativo, uno spicchio piccolo)",
+      "sale grosso"
+    ],
+    "istruzioni": "Prepara il pesto alla genovese: in un mortaio (tradizionale) o in un frullatore, metti le foglie di basilico ben lavate e asciugate, i pinoli, il parmigiano grattugiato, un piccolo spicchio d'aglio (se lo usi) e un pizzico di sale grosso. Inizia a frullare o pestare, aggiungendo a filo l'olio extravergine d'oliva fino a ottenere una salsa cremosa e omogenea. Non frullare troppo a lungo per evitare che il basilico si ossidi e perda il suo colore brillante. Cuoci la pasta in abbondante acqua salata seguendo le istruzioni sulla confezione. Quando la pasta sarà al dente, scolala, conservando un po' dell'acqua di cottura. Versa la pasta direttamente nella ciotola con il pesto. Mescola delicatamente la pasta con il pesto, aggiungendo un cucchiaio o due di acqua di cottura della pasta se necessario, per rendere la salsa più fluida e farla aderire meglio alla pasta. Servi la pasta al pesto immediatamente, guarnendo con qualche fogliolina di basilico fresco.",
+    "calorie": 450,
+    "tempo": 20
+  },
+  {
+    "id": 10,
+    "categoria": "Primo",
+    "nome": "Gnocchi al Pomodoro",
+    "descrizione": "Gli Gnocchi al Pomodoro sono un primo piatto semplice ma estremamente appagante, che unisce la morbidezza degli gnocchi alla freschezza e dolcezza di un buon sugo di pomodoro. Un classico intramontabile, amato da grandi e piccini.",
+    "immagine": "/img/gnocchi.jpg",
+    "ingredienti": [
+      "gnocchi di patate freschi",
+      "passata di pomodoro di buona qualità",
+      "spicchio d'aglio",
+      "foglie di basilico fresco",
+      "olio extravergine d'oliva",
+      "sale",
+      "parmigiano reggiano (facoltativo)"
+    ],
+    "istruzioni": "Per prima cosa, prepara il sugo di pomodoro. In una padella capiente, scalda un filo generoso di olio extravergine d'oliva e fai rosolare uno spicchio d'aglio intero o leggermente schiacciato. Non appena l'aglio sarà dorato, toglilo dalla padella e versa la passata di pomodoro. Aggiusta di sale e aggiungi qualche foglia di basilico fresco. Lascia cuocere il sugo a fuoco lento per circa 15-20 minuti, o fino a quando non si sarà leggermente addensato. Nel frattempo, porta a ebollizione abbondante acqua salata in una pentola capiente. Quando l'acqua bolle, tuffa gli gnocchi delicatamente. Gli gnocchi saranno pronti quando saliranno a galla (solitamente dopo 2-3 minuti). Scolali con una schiumarola e trasferiscili direttamente nella padella con il sugo di pomodoro. Mescola delicatamente gli gnocchi con il sugo per amalgamarli bene. Servi gli gnocchi al pomodoro caldi, guarnendo con altre foglie di basilico fresco e, se lo desideri, una spolverata di parmigiano reggiano grattugiato.",
+    "calorie": 400,
+    "tempo": 25
+  },
+  {
+    "id": 11,
+    "categoria": "Secondo",
+    "nome": "Pollo al Forno con Patate",
+    "descrizione": "Il Pollo al Forno con Patate è un secondo piatto classico della cucina casalinga, un vero comfort food che mette d'accordo tutti. Semplice da preparare ma dal sapore ricco e avvolgente, è perfetto per un pranzo domenicale o una cena in famiglia.",
+    "immagine": "/img/pollo.jpg",
+    "ingredienti": [
+      "pollo intero o a pezzi (cosce, sovracosce, ali)",
+      "patate novelle o a pasta gialla",
+      "rametti di rosmarino fresco",
+      "olio extravergine d'oliva",
+      "sale grosso",
+      "pepe nero macinato fresco"
+    ],
+    "istruzioni": "Preriscalda il forno a 200°C in modalità statica. Lava accuratamente il pollo e asciugalo con carta assorbente. Se il pollo è intero, taglialo a pezzi (cosce, sovracosce, ali, petto). Sbuccia le patate e tagliale a spicchi o cubetti non troppo piccoli. In una teglia capiente, disponi i pezzi di pollo e le patate. Condisci abbondantemente il pollo e le patate con olio extravergine d'oliva, sale grosso e pepe nero macinato fresco. Aggiungi i rametti di rosmarino fresco, distribuendoli uniformemente. Mescola bene con le mani per assicurarti che tutti gli ingredienti siano ben conditi. Inforna la teglia nel forno già caldo. Cuoci per circa 45-60 minuti (il tempo può variare in base alla grandezza dei pezzi di pollo e del forno), girando il pollo e le patate a metà cottura per garantire una doratura uniforme e una cottura perfetta. Il pollo dovrà essere dorato e croccante all'esterno e ben cotto all'interno, e le patate tenere e dorate. Servi il pollo al forno con patate caldo, direttamente dalla teglia.",
+    "calorie": 700,
+    "tempo": 50
+  },
+  {
+    "id": 12,
+    "categoria": "Secondo",
+    "nome": "Salmone alla Griglia",
+    "descrizione": "Un secondo piatto leggero, salutare e ricco di sapore, il Salmone alla Griglia è un'ottima scelta per un pasto equilibrato e gustoso. La sua carne delicata e il profumo agrumato lo rendono irresistibile.",
+    "immagine": "/img/salmone.jpg",
+    "ingredienti": [
+      "filetti di salmone fresco con pelle",
+      "limone non trattato",
+      "olio extravergine d'oliva",
+      "erbe aromatiche fresche (es. aneto, timo, prezzemolo)",
+      "sale",
+      "pepe nero macinato fresco"
+    ],
+    "istruzioni": "Lava i filetti di salmone sotto acqua fredda corrente e asciugali bene con carta assorbente. In una ciotola, spennella i filetti di salmone con olio extravergine d'oliva su entrambi i lati. Condisci con sale, pepe nero macinato fresco e le erbe aromatiche tritate finemente o intere. Spremi qualche goccia di succo di limone sui filetti. Scalda una piastra o una padella grill a fuoco medio-alto fino a quando non sarà ben calda. Adagia i filetti di salmone sulla piastra calda, iniziando dal lato della pelle. Cuoci per circa 3-4 minuti per lato, a seconda dello spessore dei filetti e del grado di cottura desiderato. La pelle dovrebbe diventare croccante e la carne opaca. Servi il salmone alla griglia immediatamente, accompagnato da spicchi di limone fresco e, se lo desideri, verdure grigliate o una fresca insalata verde.",
+    "calorie": 450,
+    "tempo": 20
+  },
+  {
+    "id": 13,
+    "categoria": "Secondo",
+    "nome": "Scaloppine al Limone",
+    "descrizione": "Un secondo piatto classico della cucina italiana, le Scaloppine al Limone sono un connubio perfetto di sapori delicati e freschi. Veloci da preparare, sono ideali per un pranzo o una cena leggera ma gustosa.",
+    "immagine": "/img/scaloppine.jpg",
+    "ingredienti": [
+      "fettine di vitello o petto di pollo sottili",
+      "limone non trattato",
+      "burro",
+      "farina 00",
+      "vino bianco secco",
+      "prezzemolo fresco tritato"
+    ],
+    "istruzioni": "Infarina leggermente le fettine di carne su entrambi i lati, eliminando l'eccesso di farina. In una padella antiaderente, sciogli una noce di burro a fuoco medio. Quando il burro sarà fuso e leggermente spumeggiante, adagia le fettine infarinate nella padella e lasciale rosolare per un paio di minuti per lato, finché non saranno leggermente dorate. Sfuma con il vino bianco, lasciandolo evaporare completamente. Aggiungi il succo di mezzo limone (o più, a seconda dei gusti) e un po' di scorza grattugiata. Continua la cottura per altri 2-3 minuti, girando le fettine, finché la salsa non si sarà addensata leggermente e la carne sarà ben cotta. Aggiusta di sale e pepe. Servi le scaloppine al limone calde, guarnendo con abbondante prezzemolo fresco tritato.",
+    "calorie": 520,
+    "tempo": 30
+  },
+  {
+    "id": 14,
+    "categoria": "Secondo",
+    "nome": "Parmigiana di Melanzane",
+    "descrizione": "La Parmigiana di Melanzane è un capolavoro della cucina del Sud Italia, un piatto ricco, saporito e avvolgente, perfetto per le occasioni speciali o per un pranzo domenicale. Ogni morso è un'esplosione di sapori mediterranei.",
+    "immagine": "/img/parmigiana.jpg",
+    "ingredienti": [
+      "melanzane lunghe o tonde",
+      "passata di pomodoro",
+      "mozzarella fior di latte o di bufala",
+      "parmigiano reggiano grattugiato",
+      "basilico fresco",
+      "olio di semi per friggere",
+      "olio extravergine d'oliva",
+      "sale"
+    ],
+    "istruzioni": "Lava le melanzane e tagliale a fette di circa mezzo centimetro di spessore. Se preferisci eliminare l'amaro, mettile sotto sale per circa 30 minuti, poi sciacquale e asciugale bene. Friggi le fette di melanzana in abbondante olio di semi bollente fino a quando non saranno dorate. Scolale su carta assorbente per eliminare l'olio in eccesso. Prepara un semplice sugo di pomodoro facendo soffriggere un po' di olio extravergine d'oliva con uno spicchio d'aglio (poi da togliere) e aggiungendo la passata, sale e basilico. Lascia sobbollire per circa 15-20 minuti. Taglia la mozzarella a cubetti e lasciala scolare per eliminare il siero in eccesso. In una teglia da forno, stendi un sottile strato di sugo di pomodoro. Disponi uno strato di melanzane fritte, poi copri con un altro strato di sugo, cubetti di mozzarella, foglie di basilico fresco e una generosa spolverata di parmigiano reggiano. Ripeti gli strati fino a esaurire gli ingredienti, terminando con sugo e abbondante parmigiano. Cuoci in forno preriscaldato a 180°C per circa 30-35 minuti, o fino a quando la superficie non sarà dorata e bollente. Lascia riposare la parmigiana per almeno 15-20 minuti prima di servirla, in modo che si compatti e i sapori si amalgamino.",
+    "calorie": 600,
+    "tempo": 50
+  },
+  {
+    "id": 15,
+    "categoria": "Secondo",
+    "nome": "Involtini di Tacchino",
+    "descrizione": "Gli Involtini di Tacchino sono un secondo piatto leggero, gustoso e versatile, perfetto per un pasto equilibrato e saporito. La loro semplicità li rende adatti a ogni occasione, dalla cena infrasettimanale al pranzo più elaborato.",
+    "immagine": "/img/involtini.jpg",
+    "ingredienti": [
+      "fette di fesa di tacchino",
+      "prosciutto cotto a fette sottili",
+      "formaggio a fette (es. provola, fontina, emmental)",
+      "sale",
+      "pepe nero",
+      "olio extravergine d'oliva"
+    ],
+    "istruzioni": "Stendi le fette di fesa di tacchino su un tagliere. Se le fette sono troppo spesse, puoi batterle leggermente con un batticarne per renderle più sottili e tenere. Su ogni fetta di tacchino, adagia una fetta di prosciutto cotto e una fetta di formaggio. Se lo desideri, puoi aggiungere un pizzico di sale e pepe. Arrotola delicatamente le fette di tacchino su se stesse, formando degli involtini compatti. Se necessario, puoi fissarli con uno stuzzicadenti. In una padella antiaderente, scalda un filo di olio extravergine d'oliva a fuoco medio. Adagia gli involtini nella padella e falli rosolare su tutti i lati fino a quando non saranno dorati e il formaggio all'interno si sarà sciolto. Questo richiederà circa 5-7 minuti. Servi gli involtini di tacchino caldi, accompagnati da un contorno di verdure fresche o cotte.",
+    "calorie": 480,
+    "tempo": 30
+  },
+  {
+    "id": 16,
+    "categoria": "Dolce",
+    "nome": "Tiramisu",
+    "descrizione": "Il Tiramisù, il dolce italiano più celebre al mondo, è un'esplosione di cremosità, dolcezza e caffè. Un dessert irresistibile, perfetto per concludere in bellezza qualsiasi pasto o per un momento di pura golosità.",
+    "immagine": "/img/tiramisu.jpg",
+    "ingredienti": [
+      "savoiardi",
+      "uova freschissime (solo tuorli)",
+      "zucchero semolato",
+      "mascarpone di alta qualità",
+      "caffè espresso freddo (non zuccherato)",
+      "cacao amaro in polvere per spolverare"
+    ],
+    "istruzioni": "Prepara il caffè espresso e lascialo raffreddare completamente. In una ciotola capiente, sbatti i tuorli d'uovo con lo zucchero semolato fino a ottenere un composto chiaro, spumoso e molto gonfio. Aggiungi il mascarpone al composto di uova e zucchero e mescola delicatamente con una spatola o una frusta a mano, con movimenti dal basso verso l'alto, fino a ottenere una crema liscia e omogenea. Non lavorare eccessivamente la crema. Inzuppa rapidamente i savoiardi nel caffè freddo, facendo attenzione a non inzupparli troppo per evitare che si sfaldino. Disponi un primo strato di savoiardi imbevuti di caffè sul fondo di una pirofila o di coppe individuali. Copri con uno strato generoso di crema al mascarpone. Ripeti gli strati (savoiardi e crema) fino a esaurire gli ingredienti, terminando con uno strato di crema. Copri la pirofila con pellicola trasparente e lascia riposare il tiramisù in frigorifero per almeno 3 ore (meglio se una notte intera), in modo che i sapori si amalgamino e il dolce si solidifichi. Poco prima di servire, spolvera generosamente la superficie del tiramisù con cacao amaro in polvere.",
+    "calorie": 450,
+    "tempo": 180
+  },
+  {
+    "id": 17,
+    "categoria": "Dolce",
+    "nome": "Panna Cotta",
+    "descrizione": "La Panna Cotta è un dessert elegante e delicato, un classico della pasticceria italiana. La sua consistenza vellutata e il gusto dolce e avvolgente la rendono perfetta da sola o accompagnata da salse alla frutta.",
+    "immagine": "/img/pannacotta.jpg",
+    "ingredienti": [
+      "panna fresca liquida",
+      "zucchero semolato",
+      "estratto di vaniglia o bacca di vaniglia",
+      "fogli di gelatina (colla di pesce)",
+      "salsa ai frutti di bosco o caramello per guarnire"
+    ],
+    "istruzioni": "Metti i fogli di gelatina in una ciotola con acqua fredda per farli ammorbidire per circa 10 minuti. In un pentolino, versa la panna fresca, lo zucchero e l'estratto di vaniglia (o i semi raschiati da una bacca di vaniglia). Porta il composto a ebollizione a fuoco medio, mescolando occasionalmente. Non appena inizia a bollire, togli dal fuoco. Strizza bene i fogli di gelatina ammorbiditi ed aggiungili al composto caldo di panna, mescolando bene con una frusta fino a quando non saranno completamente sciolti. Filtra il composto con un colino a maglie fini per eliminare eventuali impurità o grumi e ottenere una panna cotta perfettamente liscia. Versa il composto negli stampini monoporzione (o in uno stampo grande) precedentemente leggermente inumiditi con acqua. Lascia raffreddare gli stampi a temperatura ambiente, poi trasferiscili in frigorifero per almeno 4 ore (o preferibilmente tutta la notte) per far solidificare la panna cotta. Al momento di servire, immergi brevemente il fondo dello stampino in acqua calda per facilitare l'estrazione e capovolgi la panna cotta su un piattino. Guarnisci con una salsa ai frutti di bosco, caramello o cioccolato fuso.",
+    "calorie": 350,
+    "tempo": 240
+  },
+  {
+    "id": 18,
+    "categoria": "Dolce",
+    "nome": "Cheesecake al Cioccolato",
+    "descrizione": "La Cheesecake al Cioccolato è un sogno goloso per gli amanti del cioccolato e dei dolci cremosi. Ricca e indulgente, con la sua base croccante e la crema vellutata, è un dessert che conquista al primo assaggio.",
+    "immagine": "/img/nutella.jpg",
+    "ingredienti": [
+      "biscotti secchi (tipo digestive o frollini)",
+      "burro fuso",
+      "formaggio cremoso (tipo Philadelphia o mascarpone)",
+      "zucchero a velo",
+      "cioccolato fondente di alta qualità",
+      "panna fresca liquida",
+      "estratto di vaniglia"
+    ],
+    "istruzioni": "Per la base: sbriciola finemente i biscotti secchi (puoi usare un mixer da cucina). In una ciotola, mescola i biscotti sbriciolati con il burro fuso fino a ottenere un composto sabbioso e umido. Premi il composto sul fondo di uno stampo a cerniera da 22-24 cm di diametro, rivestito con carta forno, creando uno strato uniforme e compatto. Metti la base in frigorifero per almeno 30 minuti a rassodare. Per la crema: sciogli il cioccolato fondente a bagnomaria o nel microonde e lascialo intiepidire. In una ciotola capiente, mescola il formaggio cremoso con lo zucchero a velo e l'estratto di vaniglia fino a ottenere una crema liscia. Aggiungi il cioccolato fuso tiepido e incorpora bene. In un'altra ciotola, monta la panna fresca fino a quando non sarà semi-montata (non troppo soda). Incorpora delicatamente la panna montata alla crema al cioccolato e formaggio, mescolando con movimenti dal basso verso l'alto per non smontare il composto. Versa la crema sulla base di biscotti nello stampo. Livella la superficie con una spatola. Riponi la cheesecake in frigorifero per almeno 4 ore, o preferibilmente tutta la notte, per farla rassodare completamente. Al momento di servire, sforma delicatamente la cheesecake e, se desideri, decorala con scaglie di cioccolato o una spolverata di cacao.",
+    "calorie": 500,
+    "tempo": 300
+  },
+  {
+    "id": 19,
+    "categoria": "Dolce",
+    "nome": "Torta di Mele",
+    "descrizione": "La Torta di Mele è un classico senza tempo, un dolce semplice ma irresistibile che evoca ricordi di casa e calore. Perfetta per la colazione, la merenda o come fine pasto, conquisterà tutti con il suo profumo avvolgente e la sua consistenza morbida.",
+    "immagine": "/img/mele.jpg",
+    "ingredienti": [
+      "mele (tipo Renetta o Golden)",
+      "farina 00",
+      "zucchero semolato",
+      "uova fresche",
+      "burro a temperatura ambiente",
+      "lievito per dolci",
+      "scorza di limone grattugiata"
+    ],
+    "istruzioni": "Preriscalda il forno a 180°C in modalità statica. Imburra e infarina uno stampo per torte di circa 24 cm di diametro. Sbuccia le mele, elimina il torsolo e tagliale a pezzetti o fettine sottili. In una ciotola capiente, sbatti il burro ammorbidito con lo zucchero semolato fino a ottenere un composto chiaro e spumoso. Aggiungi le uova, una alla volta, incorporandole bene dopo ogni aggiunta. In un'altra ciotola, setaccia la farina con il lievito per dolci. Aggiungi gradualmente gli ingredienti secchi al composto di burro e uova, alternando con un po' di latte se l'impasto risulta troppo denso, mescolando fino a ottenere un impasto liscio e omogeneo. Incorpora la scorza di limone grattugiata e, se ti piace, un pizzico di cannella. Aggiungi le mele a pezzetti all'impasto e mescola delicatamente per distribuirle uniformemente. Versa l'impasto nello stampo preparato e livella la superficie con una spatola. Cuoci in forno caldo per circa 45-55 minuti, o fino a quando uno stecchino inserito al centro della torta non uscirà pulito. Lascia raffreddare la torta di mele nello stampo per qualche minuto prima di sformarla e trasferirla su una griglia per raffreddare completamente. Servi la torta tiepida o fredda, magari con una spolverata di zucchero a velo.",
+    "calorie": 400,
+    "tempo": 60
+  },
+  {
+    "id": 20,
+    "categoria": "Dolce",
+    "nome": "Gelato alla Vaniglia",
+    "descrizione": "Il Gelato alla Vaniglia è il gusto classico per eccellenza, una delizia intramontabile che conquista con la sua semplicità e la sua cremosità. Perfetto da solo o come accompagnamento per altri dolci, è un vero must per gli amanti del gelato.",
+    "immagine": "/img/vaniglia.jpg",
+    "ingredienti": [
+      "latte intero fresco",
+      "panna fresca liquida",
+      "zucchero semolato",
+      "estratto di vaniglia di alta qualità o bacca di vaniglia",
+      "tuorli d'uovo (facoltativo, per una maggiore cremosità)"
+    ],
+    "istruzioni": "Se utilizzi la bacca di vaniglia, incidila nel senso della lunghezza e raschia i semi. In un pentolino a fondo spesso, versa il latte, la panna, lo zucchero e l'estratto di vaniglia (o la bacca con i semi). Scalda il composto a fuoco medio, mescolando finché lo zucchero non si sarà completamente sciolto. Porta quasi a ebollizione, ma non far bollire. Se usi i tuorli d'uovo: in una ciotola a parte, sbatti leggermente i tuorli. Versa lentamente una parte del composto caldo di latte e panna sui tuorli, mescolando continuamente per temperarli. Poi, versa il tutto nel pentolino con il resto del composto e continua a cuocere a fuoco dolce, mescolando con un cucchiaio di legno, finché la crema non si addensa leggermente e vela il cucchiaio (circa 80-85°C). Se non usi i tuorli, salta questo passaggio. Togli dal fuoco e, se hai usato la bacca di vaniglia, rimuovila. Lascia raffreddare completamente la crema a temperatura ambiente, poi coprila con pellicola trasparente a contatto e trasferiscila in frigorifero per almeno 3-4 ore, o preferibilmente tutta la notte, per farla raffreddare molto bene. Versa la crema ben fredda nella gelatiera e azionala secondo le istruzioni del produttore, fino a quando il gelato non avrà raggiunto la consistenza desiderata. Trasferisci il gelato in un contenitore ermetico e mettilo in freezer per almeno 1-2 ore prima di servire, per farlo indurire ulteriormente. Servi il gelato alla vaniglia freddo, da solo o accompagnato da frutta fresca, salse o biscotti.",
+    "calorie": 300,
+    "tempo": 360
+  },
+  {
+    "id": 21,
+    "categoria": "Antipasto",
+    "nome": "Tartine Salmone e Agrumi",
+    "descrizione": "Eleganti e straordinariamente saporite, queste Tartine al Salmone sono un'opzione perfetta per un buffet sofisticato o come antipasto raffinato per una cena speciale. La combinazione sublime tra la croccantezza del pane tostato, la delicatezza della crema di formaggio fresco arricchita da note agrumate e la sapidità del salmone affumicato conquisterà il palato di ogni commensale, lasciando un'impronta di freschezza e gusto equilibrato.",
+    "immagine": "/img/tartine-salmone.jpg",
+    "ingredienti": [
+      "8 fette di pane in cassetta o 1 baguette piccola",
+      "200g di formaggio fresco spalmabile",
+      "150g di salmone affumicato",
+      "1/2 limone (succo e scorza grattugiata)",
+      "2 rametti di aneto fresco o erba cipollina"
+    ],
+    "istruzioni": "Per iniziare, tosta leggermente le fette di pane in cassetta in una tostiera o in forno fino a renderle dorate e croccanti. Se usi una baguette, tagliala a fette oblique e tostale allo stesso modo. Lascia raffreddare completamente. In una piccola ciotola, mescola il formaggio fresco spalmabile con il succo di mezzo limone e un pizzico di scorza grattugiata finemente, così da ottenere una crema omogenea e leggermente profumata. Distribuisci uno strato generoso di questa crema su ogni fetta di pane tostato. Successivamente, adagia delicatamente una fetta di salmone affumicato su ogni tartina, creando delle piccole 'rose' o pieghe per un effetto visivo più gradevole. Completa ogni tartina con una spolverata di erba cipollina fresca tritata finemente o qualche ciuffetto di aneto, che aggiungerà una nota aromatica distintiva. Servi le tartine immediatamente o conservale in frigorifero fino al momento di servire, preferibilmente non più di un'ora per mantenere la freschezza del pane.",
+    "calorie": 200,
+    "tempo": 10
+  },
+  {
+    "id": 22,
+    "categoria": "Primo",
+    "nome": "Gnocchi Gorgonzola e Noci",
+    "descrizione": "Un primo piatto che è un vero abbraccio per il palato, gli Gnocchi al Gorgonzola sono incredibilmente cremosi e dal gusto intenso e avvolgente. Arricchiti dalla croccantezza delle noci tostate, questa delizia scalda il cuore e soddisfa i sensi, ideale per una serata confortevole o un pranzo speciale in famiglia.",
+    "immagine": "/img/gnocchi-gorgonzola.jpg",
+    "ingredienti": [
+      "500g di gnocchi di patate freschi",
+      "200g di gorgonzola dolce DOP",
+      "200ml di panna fresca liquida",
+      "50g di parmigiano reggiano grattugiato",
+      "50g di gherigli di noci"
+    ],
+    "istruzioni": "Per prima cosa, prepara la salsa al gorgonzola: in una padella capiente e antiaderente, a fuoco medio-basso, fai sciogliere il gorgonzola dolce tagliato a pezzetti insieme alla panna fresca. Mescola continuamente con una spatola o un cucchiaio di legno fino a ottenere una crema liscia, omogenea e senza grumi. Regola di sale, ma assaggia prima, poiché il gorgonzola è già sapido. Tieni la salsa in caldo a fuoco bassissimo. Nel frattempo, porta a ebollizione abbondante acqua salata in una pentola capiente. Tuffa gli gnocchi e cuocili per pochi minuti, finché non salgono a galla. Scola gli gnocchi delicatamente con una schiumarola e trasferiscili direttamente nella padella con la salsa al gorgonzola. Aggiungi il parmigiano grattugiato e mescola delicatamente per amalgamare bene tutti gli ingredienti, facendo in modo che gli gnocchi si ricoprano uniformemente di crema. Se la salsa risultasse troppo densa, aggiungi un cucchiaio o due di acqua di cottura degli gnocchi. Tosta leggermente i gherigli di noci in un padellino antiaderente per pochi minuti, senza aggiungere grassi, fino a che non saranno fragranti. Servi gli gnocchi immediatamente, impiattandoli e guarnendo ogni porzione con una generosa macinata di pepe nero fresco e i gherigli di noci tostati spezzettati. Una vera delizia che coccolerà il palato.",
+    "calorie": 580,
+    "tempo": 20
+  },
+  {
+    "id": 23,
+    "categoria": "Primo",
+    "nome": "Orecchiette Cime di Rapa",
+    "descrizione": "Un autentico capolavoro della cucina pugliese, le Orecchiette con le Cime di Rapa rappresentano un connubio perfetto tra tradizione, genuinità e un sapore deciso e inconfondibile. Questo piatto semplice, ma incredibilmente ricco di gusto, è una vera celebrazione degli ingredienti mediterranei, arricchito da una mollica di pane croccante che aggiunge un tocco irresistibile.",
+    "immagine": "/img/orecchiette-cime.jpg",
+    "ingredienti": [
+      "400g di orecchiette fresche",
+      "800g di cime di rapa fresche",
+      "2 spicchi d'aglio grandi",
+      "1-2 peperoncini rossi secchi",
+      "60ml di olio extravergine d'oliva",
+      "4-5 filetti di acciughe sott'olio (facoltative)",
+      "50g di mollica di pane raffermo"
+    ],
+    "istruzioni": "Per iniziare, pulisci accuratamente le cime di rapa, scartando le foglie più dure e i gambi fibrosi. Separa le foglie tenere e le cimette e lavale sotto acqua corrente fredda. Porta a ebollizione una pentola capiente con abbondante acqua salata. Immergi le cime di rapa nell'acqua bollente e sbollentale per circa 5-7 minuti. A questo punto, aggiungi le orecchiette nella stessa acqua di cottura delle cime di rapa e cuocile seguendo i tempi indicati sulla confezione (o finché non saranno al dente). Mentre la pasta e le verdure cuocono, prepara il condimento: in una padella larga e antiaderente, scalda l'olio extravergine d'oliva a fuoco medio. Aggiungi gli spicchi d'aglio interi (che potrai togliere in seguito) o tritati finemente e il peperoncino sminuzzato. Se hai deciso di usarle, aggiungi anche le acciughe e lasciale sciogliere nell'olio, mescolando con un cucchiaio di legno, fino a che non si saranno completamente sfaldate, rilasciando il loro sapore intenso. In un'altra padella piccola, tosta la mollica di pane raffermo (o il pangrattato grosso) con un filo d'olio fino a renderla dorata e croccante. Scola le orecchiette e le cime di rapa direttamente nella padella con il condimento aromatico, conservando un po' dell'acqua di cottura. Salta la pasta e le verdure per qualche minuto a fuoco vivo, mescolando bene per amalgamare tutti i sapori. Se necessario, aggiungi un cucchiaio o due di acqua di cottura per creare una leggera cremina. Servi immediatamente le Orecchiette alle Cime di Rapa, guarnendo ogni piatto con una generosa spolverata di mollica di pane croccante tostata. Per gli amanti dei sapori più audaci, un filo d'olio a crudo e un pizzico di peperoncino fresco tritato possono completare il piatto.",
+    "calorie": 450,
+    "tempo": 25
+  },
+  {
+    "id": 24,
+    "categoria": "Secondo",
+    "nome": "Pollo al Curry Indiano",
+    "descrizione": "Un vero e proprio viaggio culinario nei profumi e nei sapori esotici dell'Oriente, il Pollo al Curry è un secondo piatto ricco, speziato e incredibilmente cremoso. È la scelta perfetta per una cena che stupisce, specialmente se accompagnato da un aromatico riso basmati, che assorbe magnificamente la deliziosa salsa. Questa ricetta bilancia sapientemente le spezie per un gusto armonioso e appagante.",
+    "immagine": "/img/pollo-curry.jpg",
+    "ingredienti": [
+      "500g di petto di pollo",
+      "1 cipolla grande",
+      "200ml di latte di cocco in lattina",
+      "2-3 cucchiai di polvere di curry",
+      "2 cucchiai di olio di semi",
+      "1 pezzetto di zenzero fresco (circa 2 cm, facoltativo)",
+      "200g di riso basmati"
+    ],
+    "istruzioni": "Inizia tagliando il petto di pollo a cubetti di circa 2-3 cm. Trita finemente la cipolla. Se usi l'aglio e lo zenzero, tritali o grattugiali finemente. In una padella ampia e profonda (o un wok), scalda l'olio di semi a fuoco medio. Aggiungi la cipolla tritata e falla soffriggere dolcemente per circa 5-7 minuti, fino a quando non sarà morbida e traslucida, evitando che si bruci. Se usi aglio e zenzero, aggiungili e falli soffriggere per un altro minuto, finché non saranno fragranti. Aggiungi i cubetti di pollo nella padella e falli rosolare su tutti i lati fino a quando non avranno preso un bel colore dorato. Ora è il momento del curry: aggiungi la polvere di curry, mescolando bene per farla aderire al pollo e alle verdure. Lascia tostare le spezie per circa un minuto, rilasciando il loro aroma. Versa il latte di cocco nella padella. Mescola bene, assicurandoti che la salsa ricopra completamente il pollo. Porta a ebollizione, poi abbassa la fiamma al minimo, copri la padella e lascia cuocere a fuoco dolce per circa 15-20 minuti, o finché il pollo non sarà tenero e la salsa si sarà leggermente addensata. Se la salsa dovesse risultare troppo liquida, togli il coperchio negli ultimi minuti di cottura. Nel frattempo, prepara il riso basmati: sciacqua il riso sotto acqua fredda corrente fino a quando l'acqua non risulterà limpida. In una pentola, porta a ebollizione 400ml di acqua con un pizzico di sale. Aggiungi il riso sciacquato, copri la pentola, abbassa la fiamma al minimo e cuoci per circa 10-12 minuti, o finché tutta l'acqua non sarà stata assorbita e il riso sarà cotto. Spegni il fuoco e lascia riposare il riso coperto per 5 minuti prima di sgranarlo con una forchetta. Servi il Pollo al Curry ben caldo, accompagnato dal riso basmati profumato. Puoi guarnire con foglie di coriandolo fresco per un tocco di colore e un profumo aggiuntivo. Questo piatto è un'esperienza sensoriale che conquisterà tutti i tuoi ospiti.",
+    "calorie": 520,
+    "tempo": 35
+  },
+  {
+    "id": 25,
+    "categoria": "Secondo",
+    "nome": "Frittelle Ceci e Menta",
+    "descrizione": "Croccanti all'esterno e incredibilmente morbide all'interno, queste Frittelle di Ceci sono una deliziosa alternativa vegetariana, ricca di proteine e sapore. Perfette come secondo piatto leggero, ma anche ideali come sfizioso finger food per un aperitivo o un buffet, accompagnate da una fresca salsa allo yogurt e menta che ne esalta la delicatezza.",
+    "immagine": "/img/frittelle-ceci.jpg",
+    "ingredienti": [
+      "400g di ceci cotti",
+      "50g di farina di ceci",
+      "1/2 cipolla media",
+      "Un ciuffo generoso di prezzemolo fresco",
+      "Olio di semi per friggere",
+      "150g di yogurt greco naturale",
+      "1 cucchiaio di succo di limone fresco"
+    ],
+    "istruzioni": "Inizia preparando l'impasto delle frittelle. Scola e sciacqua bene i ceci cotti. Trasferiscili in un robot da cucina (o frullatore potente). Aggiungi la mezza cipolla tagliata a pezzi, il prezzemolo lavato e tritato grossolanamente, la farina di ceci, il cumino (se lo usi), il sale e il pepe. Frulla il tutto fino a ottenere un impasto compatto e omogeneo. Non deve essere liscio come una crema, ma deve avere una consistenza leggermente granulosa che permetta di formare le frittelle. Se l'impasto dovesse risultare troppo morbido, aggiungi un altro cucchiaio di farina di ceci. Forma delle polpette schiacciate o dei dischi di circa 1 cm di spessore e 5-6 cm di diametro. In una padella dai bordi alti, scalda abbondante olio di semi a fuoco medio-alto. L'olio deve essere ben caldo, circa 170-180°C. Friggi le frittelle poche alla volta, per non abbassare troppo la temperatura dell'olio. Lascia dorare le frittelle per circa 3-4 minuti per lato, o finché non saranno uniformemente dorate e croccanti. Con una schiumarola, scola le frittelle dall'olio e disponile su un piatto rivestito con carta assorbente per eliminare l'olio in eccesso. Nel frattempo, prepara la salsa allo yogurt: in una piccola ciotola, mescola lo yogurt greco con il succo di limone e la menta fresca tritata finemente. Regola di sale se necessario. Servi le Frittelle di Ceci calde o tiepide, accompagnate dalla rinfrescante salsa allo yogurt e menta. Sono perfette anche come aperitivo, magari su un letto di insalata fresca.",
+    "calorie": 340,
+    "tempo": 30
+  },
+  {
+    "id": 26,
+    "categoria": "Dolce",
+    "nome": "Torta Soffice al Limone",
+    "descrizione": "La Torta al Limone è un dolce irresistibile, fresco e profumatissimo, perfetto per deliziare il palato in ogni occasione. La sua consistenza incredibilmente soffice e il sapore vivace e agrumato la rendono ideale per una colazione leggera, una merenda golosa o come dessert elegante dopo cena, magari accompagnata da una glassa lucida che ne esalta la bellezza e il gusto.",
+    "immagine": "/img/torta-limone.jpg",
+    "ingredienti": [
+      "250g di farina 00",
+      "200g di zucchero semolato",
+      "3 uova fresche grandi",
+      "120g di burro ammorbidito",
+      "80ml di succo di limone fresco",
+      "Scorza grattugiata di 2 limoni non trattati",
+      "1 bustina di lievito per dolci",
+      "150g di zucchero a velo"
+    ],
+    "istruzioni": "Preriscalda il forno a 180°C (statico) e imburra e infarina uno stampo rotondo da 22-24 cm di diametro, o rivestilo con carta forno. In una ciotola capiente, con l'aiuto di una frusta elettrica o planetaria, sbatti il burro ammorbidito con lo zucchero semolato fino a ottenere un composto chiaro, gonfio e spumoso. Questo passaggio è fondamentale per la sofficità della torta. Aggiungi le uova una alla volta, incorporandole bene dopo ogni aggiunta e mescolando fino a quando non saranno completamente assorbite dall'impasto. Aggiungi la scorza grattugiata dei limoni e il succo di limone, mescolando brevemente. In una ciotola a parte, setaccia la farina 00 con il lievito per dolci e un pizzico di sale. Incorpora gradualmente gli ingredienti secchi al composto umido, mescolando delicatamente con una spatola dal basso verso l'alto per non smontare l'impasto, fino a ottenere un composto liscio e omogeneo. Evita di mescolare troppo. Versa l'impasto nello stampo preparato e livella la superficie con la spatola. Cuoci in forno preriscaldato per circa 30-35 minuti. Per verificare la cottura, inserisci uno stecchino al centro della torta: se esce pulito, la torta è pronta. Lascia raffreddare la torta nello stampo per 10 minuti, poi sformala su una griglia e lasciala raffreddare completamente. Per preparare la glassa (se desiderata): in una ciotola, mescola lo zucchero a velo con il succo di limone, aggiungendolo poco alla volta, fino a ottenere una glassa liscia e fluida ma non troppo liquida. Spalmala sulla superficie della torta una volta che si è completamente raffreddata. Lascia che la glassa si solidifichi leggermente prima di servire. Questa Torta al Limone è una vera delizia per il palato, perfetta per concludere un pasto con una nota di freschezza o per accompagnare un tè pomeridiano.",
+    "calorie": 360,
+    "tempo": 50
+  },
+  {
+    "id": 27,
+    "categoria": "Dolce",
+    "nome": "Budino Cioccolato Fondente",
+    "descrizione": "Un classico intramontabile che conquista tutti, il Budino al Cioccolato Fondente è un dessert cremoso, vellutato e irresistibilmente avvolgente, un vero paradiso per gli amanti del cioccolato. La sua preparazione è sorprendentemente facile e veloce, rendendolo l'opzione ideale per una merenda golosa o come dessert raffinato e confortante dopo cena.",
+    "immagine": "/img/budino-cioccolato.jpg",
+    "ingredienti": [
+      "500ml di latte intero fresco",
+      "80g di zucchero semolato",
+      "40g di cacao amaro in polvere",
+      "40g di amido di mais",
+      "100g di cioccolato fondente",
+      "1 cucchiaino di estratto di vaniglia"
+    ],
+    "istruzioni": "In un pentolino dal fondo spesso, unisci lo zucchero semolato, il cacao amaro in polvere e l'amido di mais. Mescola bene con una frusta per eliminare eventuali grumi. Aggiungi gradualmente il latte freddo, versandolo a filo e continuando a mescolare con la frusta per evitare la formazione di grumi. È fondamentale che il composto sia liscio prima di accendere il fuoco. Porta il pentolino sul fuoco medio e, mescolando continuamente con una frusta, porta il composto a ebollizione. Continua a cuocere e mescolare per circa 2-3 minuti dopo l'ebollizione, o fino a quando il composto non si sarà addensato e avrà raggiunto una consistenza cremosa e vellutata. Togli il pentolino dal fuoco. Aggiungi immediatamente il cioccolato fondente tritato e l'estratto di vaniglia (o i semi della bacca di vaniglia). Mescola energicamente con la frusta fino a quando il cioccolato non sarà completamente fuso e incorporato, ottenendo una crema liscia e lucida. Versa il budino in 4-6 stampini individuali (o in una ciotola grande) leggermente inumiditi con acqua fredda (questo aiuterà a sformarli). Lascia raffreddare a temperatura ambiente per circa 30 minuti, poi trasferisci gli stampini in frigorifero per almeno 2 ore, o finché il budino non sarà completamente freddo e rassodato. Per servire, puoi sformare il budino (passando velocemente il fondo dello stampino in acqua calda se necessario) o servirlo direttamente negli stampini. Guarnisci a piacere con panna montata, scaglie di cioccolato o frutti di bosco freschi. Un dessert che farà la gioia di grandi e piccini!",
+    "calorie": 300,
+    "tempo": 30
+  },
+  {
+    "id": 29,
+    "categoria": "Dolce",
+    "nome": "Crostata di Marmellata",
+    "descrizione": "La Crostata di Marmellata è un dolce rustico e intramontabile che evoca ricordi d'infanzia e profumi di casa. Semplice ma sempre apprezzata, è la scelta perfetta per la colazione, la merenda o come dessert genuino. La sua pasta frolla fragrante e friabile abbraccia un ripieno generoso di marmellata, creando un'armonia di sapori e consistenze irresistibile.",
+    "immagine": "/img/crostata.jpg",
+    "ingredienti": [
+      "300g di farina 00",
+      "150g di burro freddo a cubetti",
+      "100g di zucchero semolato",
+      "1 uovo intero + 1 tuorlo",
+      "Scorza grattugiata di 1/2 limone non trattato",
+      "300-350g di marmellata a scelta"
+    ],
+    "istruzioni": "Per prima cosa, prepara la pasta frolla. In una ciotola capiente (o nell'impastatrice), unisci la farina setacciata, il burro freddo tagliato a cubetti e il pizzico di sale. Lavora velocemente con la punta delle dita (o con la frusta K dell'impastatrice) fino a ottenere un composto sabbioso e bricioloso (processo chiamato sabbiatura). Aggiungi lo zucchero semolato, l'uovo intero e il tuorlo, e la scorza di limone grattugiata. Impasta rapidamente fino a che gli ingredienti non si saranno amalgamati e avrai ottenuto un panetto liscio e omogeneo. Non lavorare troppo la frolla per non scaldarla e renderla gommosa. Avvolgi il panetto nella pellicola trasparente e lascialo riposare in frigorifero per almeno 30 minuti (o anche un'ora). Preriscalda il forno a 180°C (statico). Trascorso il tempo di riposo, riprendi la pasta frolla e prelevane circa 2/3. Stendila con un matterello su una superficie leggermente infarinata, formando un disco di circa 3-4 mm di spessore, sufficiente a ricoprire una tortiera da crostata da 24-26 cm di diametro. Imburra e infarina la tortiera (o rivestila con carta forno) e adagiavi sopra il disco di pasta frolla, facendola aderire bene ai bordi e tagliando l'eccesso. Farcisci la base con la tua marmellata preferita, distribuendola uniformemente. Con la pasta frolla rimanente, forma delle strisce (con un coltello o un'apposita rotella dentellata) e disponile a griglia sulla superficie della marmellata. Inforna la crostata nel forno preriscaldato e cuoci per circa 30-35 minuti, o finché la frolla non sarà ben dorata. Lascia raffreddare completamente la crostata prima di toglierla dallo stampo e servirla. È ancora più buona il giorno dopo!",
+    "calorie": 420,
+    "tempo": 50
+  },
+  {
+    "id": 30,
+    "categoria": "Dolce",
+    "nome": "Biscotti al Burro",
+    "descrizione": "I Biscotti al Burro sono un classico della pasticceria, simbolo di semplicità e golosità. Veloci da preparare e incredibilmente versatili, sono perfetti per accompagnare una tazza di tè o caffè, ma anche ideali da regalare in un bel pacchetto o da gustare in qualsiasi momento della giornata per una dolce coccola.",
+    "immagine": "/img/biscotti-burro.jpg",
+    "ingredienti": [
+      "200g di burro a temperatura ambiente",
+      "100g di zucchero a velo",
+      "300g di farina 00",
+      "1 uovo intero",
+      "1 cucchiaino di estratto di vaniglia"
+    ],
+    "istruzioni": "Preriscalda il forno a 180°C (statico) e rivesti una teglia grande con carta forno. In una ciotola capiente, con una frusta elettrica o una planetaria, sbatti il burro ammorbidito con lo zucchero a velo (o semolato) e un pizzico di sale fino a ottenere un composto chiaro, cremoso e spumoso. Aggiungi l'uovo e l'estratto di vaniglia (o i semi della bacca), mescolando bene fino a che non saranno completamente incorporati. A questo punto, aggiungi la farina 00 setacciata in due o tre riprese, incorporandola delicatamente con una spatola o con le mani, senza impastare troppo, fino a ottenere un impasto omogeneo e compatto. Se l'impasto dovesse risultare troppo appiccicoso, puoi avvolgerlo nella pellicola e farlo riposare in frigorifero per 15-20 minuti. Preleva piccole porzioni di impasto e forma delle palline, schiacciale leggermente con il palmo della mano o con i rebbi di una forchetta per creare una decorazione. Disponi i biscotti sulla teglia preparata, lasciando un po' di spazio tra l'uno e l'altro. Cuoci in forno preriscaldato per circa 12-15 minuti, o finché i bordi dei biscotti non saranno leggermente dorati. I biscotti saranno ancora morbidi quando li togli dal forno, ma si solidificheranno raffreddandosi. Lascia raffreddare i biscotti completamente sulla teglia prima di trasferirli su una griglia. Questi biscotti sono perfetti da gustare semplici o possono essere decorati con glassa, cioccolato fuso o confettini. Si conservano in un contenitore ermetico per diversi giorni, mantenendo intatta la loro fragranza.",
+    "calorie": 250,
+    "tempo": 30
+  },
+  {
+    "id": 35,
+    "categoria": "Dolce",
+    "nome": "Muffin Mirtilli e Limone",
+    "descrizione": "Questi Muffin ai Mirtilli e Limone sono un vero piacere per il palato: soffici e umidi all'interno, arricchiti da un ripieno succoso di mirtilli freschi e la nota agrumata del limone. La croccantezza del crumble superiore aggiunge una dimensione testuale irresistibile, rendendoli perfetti per la colazione, una pausa caffè o una merenda golosa.",
+    "immagine": "/img/muffin-mirtilli.jpg",
+    "ingredienti": [
+      "250g di farina 00",
+      "150g di zucchero semolato",
+      "100ml di latte intero",
+      "80ml di olio di semi",
+      "2 uova grandi",
+      "1 bustina di lievito per dolci",
+      "200g di mirtilli freschi o surgelati"
+    ],
+    "istruzioni": "Preriscalda il forno a 180°C (statico) e prepara una teglia da muffin con 12 pirottini di carta. Prepara il crumble: In una piccola ciotola, unisci la farina, lo zucchero di canna e il burro freddo tagliato a cubetti. Lavora rapidamente con la punta delle dita (o con una forchetta) fino a ottenere un composto sabbioso e granuloso. Metti da parte. In una ciotola grande, setaccia la farina con il lievito e il sale. Aggiungi lo zucchero semolato e la scorza grattugiata del limone. Mescola brevemente con una frusta a mano. In una ciotola separata, sbatti leggermente le uova, poi aggiungi il latte e l'olio di semi. Mescola bene. Versa gli ingredienti liquidi nella ciotola con gli ingredienti secchi. Mescola con una spatola o un cucchiaio di legno solo fino a quando gli ingredienti non si sono appena amalgamati. È importante non mescolare troppo l'impasto, anche se ci sono ancora dei piccoli grumi, per ottenere muffin soffici. Aggiungi delicatamente i mirtilli all'impasto, mescolando con attenzione per non romperli. Distribuisci l'impasto nei 12 pirottini, riempiendoli per circa 2/3. Cospargi generosamente la superficie di ogni muffin con il crumble preparato in precedenza. Inforna i muffin nel forno preriscaldato per circa 20-25 minuti, o finché non saranno dorati e uno stecchino inserito al centro uscirà pulito. Lascia raffreddare i muffin nella teglia per qualche minuto, poi trasferiscili su una griglia per farli raffreddare completamente. Sono deliziosi tiepidi, ma si conservano bene anche a temperatura ambiente in un contenitore ermetico per 2-3 giorni. Un'esplosione di gusto in ogni morso!",
+    "calorie": 280,
+    "tempo": 40
+  },
+  {
+    "id": 37,
+    "categoria": "Primo",
+    "nome": "Pasta alla Norma",
+    "descrizione": "Un'icona della cucina siciliana, la Pasta alla Norma è un primo piatto ricco di sapori mediterranei e tradizione. Questa ricetta, originaria di Catania, celebra la melanzana fritta, la salsa di pomodoro fresco, la ricotta salata e il basilico, creando un'armonia di gusti che delizia il palato e riporta alla mente i profumi della Sicilia.",
+    "immagine": "/img/pasta-norma.jpg",
+    "ingredienti": [
+      "320g di pasta",
+      "2 melanzane medie",
+      "500g di pomodori pelati",
+      "1 spicchio d'aglio",
+      "Un generoso ciuffo di basilico fresco",
+      "150g di ricotta salata stagionata",
+      "Olio extravergine d'oliva",
+      "Olio di semi per friggere"
+    ],
+    "istruzioni": "Inizia preparando le melanzane. Lava le melanzane, tagliale a fette di circa mezzo centimetro di spessore, poi a bastoncini o cubetti. Cospargile con sale grosso e lasciale riposare in uno scolapasta per circa 30 minuti, per far perdere l'acqua di vegetazione e il sapore amaro. Sciacquale bene sotto acqua corrente e asciugale con cura con un canovaccio pulito o carta da cucina. In una padella capiente, scalda abbondante olio di semi. Friggi le melanzane poco alla volta fino a quando saranno dorate e croccanti. Scoalale su carta assorbente per eliminare l'olio in eccesso e metti da parte. Prepara il sugo di pomodoro. In una padella capiente, fai scaldare 2 cucchiai di olio extravergine d'oliva con lo spicchio d'aglio intero (che potrai rimuovere dopo). Aggiungi i pomodori pelati (o la passata di pomodoro), schiacciali con una forchetta se interi, e aggiusta di sale e pepe. Lascia cuocere il sugo a fuoco lento per circa 15-20 minuti, finché non si sarà leggermente addensato. A metà cottura, aggiungi qualche foglia di basilico fresco. Porta a ebollizione abbondante acqua salata e cuoci la pasta al dente. Mentre la pasta cuoce, unisci circa due terzi delle melanzane fritte al sugo di pomodoro. Grattugia finemente la ricotta salata. Scola la pasta e trasferiscila direttamente nella padella con il sugo di pomodoro e melanzane. Aggiungi metà della ricotta salata grattugiata e un po' di basilico fresco tritato. Mescola bene per amalgamare tutti gli ingredienti. Servi la Pasta alla Norma immediatamente, guarnendo ogni piatto con le rimanenti melanzane fritte, una generosa spolverata di ricotta salata grattugiata e qualche foglia di basilico fresco. Un vero trionfo di sapori mediterranei!",
+    "calorie": 510,
+    "tempo": 45
+  },
+  {
+    "id": 38,
+    "categoria": "Primo",
+    "nome": "Lasagne al Ragù",
+    "descrizione": "Un capolavoro della cucina italiana, le Lasagne al Ragù Classico Bolognese sono il piatto della festa per eccellenza. Strati di pasta fresca all'uovo, avvolti in un ragù ricco e saporito, besciamella vellutata e tanto Parmigiano, creano un piatto che è un inno alla tradizione e al gusto, perfetto per riunire la famiglia a tavola.",
+    "immagine": "/img/lasagne-ragu.jpg",
+    "ingredienti": [
+      "250g di sfoglia fresca per lasagne",
+      "300g di carne macinata di manzo",
+      "100g di pancetta tesa o coppata, tritata",
+      "200ml di passata di pomodoro",
+      "50ml di latte intero",
+      "2 cucchiai di olio extravergine d'oliva",
+      "500ml di latte intero per besciamella",
+      "150g di Parmigiano Reggiano grattugiato"
+    ],
+    "istruzioni": "Prepara il ragù bolognese: trita finemente carota, sedano e cipolla per un soffritto. In una casseruola capiente, fai soffriggere la pancetta tritata con l'olio fino a renderla croccante. Aggiungi il trito di verdure e lascialo appassire dolcemente. Unisci la carne macinata e falla rosolare a fuoco vivo, sgranandola con un cucchiaio, fino a che non avrà cambiato colore. Sfuma con il vino rosso e lascia evaporare l'alcol. Aggiungi la passata di pomodoro e un mestolo di brodo caldo. Copri e lascia cuocere il ragù a fuoco lentissimo per almeno 2 ore (anche 3-4), mescolando di tanto in tanto e aggiungendo brodo se necessario. A metà cottura, aggiungi il latte per rendere il ragù più cremoso. Regola di sale e pepe. Prepara la besciamella: in un pentolino, sciogli il burro a fuoco basso. Aggiungi la farina in un colpo solo e mescola energicamente con una frusta per creare un roux. Cuoci per un minuto. Versa il latte freddo a filo, continuando a mescolare con la frusta per evitare grumi. Porta a ebollizione e cuoci finché la besciamella non si addensa, mescolando continuamente. Aggiusta di sale e aggiungi una grattugiata di noce moscata. Spegni il fuoco. Assembla le lasagne: Preriscalda il forno a 180°C (statico). Sul fondo di una pirofila rettangolare, stendi un leggero strato di besciamella. Copri con uno strato di sfoglia per lasagne, poi uno strato generoso di ragù, un po' di besciamella e una spolverata di Parmigiano. Continua a stratificare, terminando con ragù, besciamella e Parmigiano. Copri la teglia con alluminio e inforna per 20 minuti. Togli l'alluminio e cuoci per altri 15-20 minuti. Lascia riposare le lasagne per 10 minuti prima di servirle.",
+    "calorie": 650,
+    "tempo": 180
+  }
+] 
+

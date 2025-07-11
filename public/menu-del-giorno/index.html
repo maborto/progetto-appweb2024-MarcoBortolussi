@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chef Per Caso - Menu del Giorno</title>
+    <link rel="stylesheet" href="/common/auth.css"> <!-- Stili per i modali di autenticazione -->
+    <link rel="stylesheet" href="style.css"> <!-- Stili specifici per il Menu del Giorno -->
+</head>
+<body>
+
+    <header>
+    
+    <div class="dropdown">
+      <button class="dropbtn">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+      <div class="dropdown-content">
+        <div class="menu-title">Menu</div>
+        <a href ="../main/index.html" style="font-style: italic;" >Home</a>
+        <a href="/preferiti" style="font-style: italic;">I Miei Preferiti</a>
+        
+        
+        <div class="menu-separator"></div> 
+
+        <a href="/categoria/index.html?categoria=Antipasto">Antipasti</a>
+        <a href="/categoria/index.html?categoria=Primo">Primi</a>
+        <a href="/categoria/index.html?categoria=Secondo">Secondi</a>
+        <a href="/categoria/index.html?categoria=Dolce">Dolci</a>
+      </div>
+    </div>
+
+        <button id="header-login-btn" class="header-btn">Login</button>
+        <button id="edit-profile-btn" class="header-btn" style="display: none;">Modifica Profilo</button>
+
+        <div class="titoli">
+            <h1>Chef Per Caso</h1>
+            <h2>Il tuo ricettario personale</h2>
+        </div>
+
+    <!-- Logo in alto a destra -->
+    <a href="../main/index.html" class="logo-link">
+      <img src="../img/logo.png" alt="Chef Per Caso" class="logo">
+    </a>
+    </header>
+
+    <main>
+        <div class="menu-container">
+            <h1 id="menu-title">Il Tuo Menu del Giorno</h1>
+            <p class="menu-intro">Scopri i piatti scelti per te oggi!</p>
+
+            <div id="loading-message" class="message-box info" style="display: none;">
+                Caricamento del menu...
+            </div>
+            <div id="error-message" class="message-box error" style="display: none;">
+                Si è verificato un errore nel caricamento del menu. Riprova più tardi.
+            </div>
+
+            <div id="daily-menu-sections">
+                <!-- Le sezioni del menu verranno generate qui dal JavaScript -->
+            </div>
+
+            <button id="generate-new-menu-btn" class="generate-btn">Genera Nuovo Menu</button>
+        </div>
+    </main>
+
+        <!-- Messaggio Personalizzato -->
+    <div id="customMessageBox" class="custom-message-box">
+        <span id="customMessageText"></span>
+        <button id="customMessageOkButton" class="custom-message-ok-button">OK</button>
+    </div>
+
+    <!-- Modale di Login/Registrazione (copia da main/index.html) -->
+    <div id="auth-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div id="login-form-container">
+                <h2>Login</h2>
+                <input type="text" id="login-username" placeholder="Username">
+                <input type="password" id="login-password" placeholder="Password">
+                <button id="login-submit-btn">Accedi</button>
+                <p id="login-message" class="auth-message"></p>
+                <p>Non hai un account? <a href="#" id="show-register">Registrati qui</a></p>
+            </div>
+
+            <div id="register-form-container" style="display: none;">
+                <h2>Registrazione</h2>
+                <input type="text" id="register-username" placeholder="Username">
+                <input type="password" id="register-password" placeholder="Password">
+                <input type="password" id="register-confirm-password" placeholder="Conferma Password">
+                <button id="register-submit-btn">Registrati</button>
+                <p id="register-message" class="auth-message"></p>
+                <p>Hai già un account? <a href="#" id="show-login">Accedi qui</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modale di Modifica Profilo (copia da main/index.html) -->
+    <div id="profile-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button profile-close-button">&times;</span>
+            <h2>Modifica Profilo</h2>
+            <div class="profile-section">
+                <h3>Password attuale</h3>
+                <input type="password" id="profile-current-password" placeholder="Password Attuale">
+            </div>
+            <div class="profile-section">
+                <h3>Modifica nome utente</h3>
+                <input type="text" id="profile-username" placeholder="Nuovo Username">
+            </div>
+            <div class="profile-section">
+                <h3>Modifica password</h3>
+                <input type="password" id="profile-new-password" placeholder="Nuova Password (opzionale)">
+                <input type="password" id="profile-confirm-new-password" placeholder="Conferma Nuova Password">
+            </div>
+            <button id="profile-save-btn">Salva Modifiche</button>
+             <button id="delete-account-btn" class="delete-account-btn">Elimina Account</button>
+            <p id="profile-message" class="auth-message"></p>
+        </div>
+    </div>
+
+
+            <!-- Modale di Conferma Personalizzata (Sì/No) -->
+    <div id="customConfirmModal" class="custom-confirm-modal">
+        <div class="custom-confirm-content">
+            <span id="customConfirmMessage" class="custom-confirm-message">Sei sicuro di voler procedere?</span>
+            <div class="custom-confirm-buttons">
+                <button id="confirmYesButton" class="confirm-button confirm-yes">Sì</button>
+                <button id="confirmNoButton" class="confirm-button confirm-no">No</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/common/auth.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
