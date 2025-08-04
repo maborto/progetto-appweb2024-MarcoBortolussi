@@ -72,6 +72,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                     return res.json();
                 })
             );
+            
             const recipes = await Promise.all(recipePromises);
 
             allFavoriteRecipes = recipes.filter(recipe => recipe && recipe.id);

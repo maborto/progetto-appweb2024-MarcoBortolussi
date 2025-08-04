@@ -104,6 +104,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const confirmNoButton = document.getElementById('confirmNoButton');
 
         if (!confirmModal || !confirmMessageElement || !confirmYesButton || !confirmNoButton) {
+
             // Fallback al confirm nativo se gli elementi non ci sono
             if (confirm(message)) {
                 if (onConfirmCallback) onConfirmCallback();
@@ -552,6 +553,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (profileCloseButton) {
         profileCloseButton.addEventListener('click', closeProfileModal);
     }
+
     if (profileModal) {
         window.addEventListener('click', (event) => {
             if (event.target === profileModal) {
@@ -559,6 +561,7 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
     }
+    
     if (profileSaveBtn) {
         profileSaveBtn.addEventListener('click', handleProfileSave);
         // Aggiungi listener per Enter su campi password nel modale profilo

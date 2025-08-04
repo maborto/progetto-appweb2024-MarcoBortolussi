@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             // Reindirizza l'utente alla pagina menu_del_giorno.html
             window.location.href = "/menu-del-giorno/index.html";
     });
-}
+    }
 
     // Listener per il bottone "Cerca" e input di ricerca
     if (searchButton && searchInput) {
